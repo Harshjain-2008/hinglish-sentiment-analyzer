@@ -23,8 +23,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-DATA_PATH = "data/sentiment_dataset.csv"
-MODEL_DIR = "model"
+DATA_PATH = "hinglish-sentiment/data/sentiment_dataset.csv"
+MODEL_DIR = "hinglish-sentiment/model"
 
 df = pd.read_csv(DATA_PATH)
 print(f"Loaded {len(df)} rows")

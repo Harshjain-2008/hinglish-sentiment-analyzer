@@ -4,6 +4,9 @@ A text classifier that detects positive / negative / neutral sentiment in
 Hinglish (Hindi + English code-mixed) text — the kind of language used in
 Instagram/YouTube comments, casual chat, and short-form content captions.
 
+Built as a portfolio companion to **CineMatch**: same "curated + transparent
+synthetic data" philosophy, but applied to NLP/text classification instead
+of recommendations.
 
 ## What it does
 

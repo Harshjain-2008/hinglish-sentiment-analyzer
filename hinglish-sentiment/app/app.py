@@ -25,7 +25,7 @@ st.set_page_config(
     layout="centered",
 )
 
-# Styling (dark, consistent with CineMatch's cinematic theme) 
+# ---------- Styling (dark, consistent with CineMatch's cinematic theme) ----------
 st.markdown(
     """
     <style>

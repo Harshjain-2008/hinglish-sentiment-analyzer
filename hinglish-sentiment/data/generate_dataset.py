@@ -130,7 +130,7 @@ def gen_rows(n_per_class=220):
 
 if __name__ == "__main__":
     rows = gen_rows(n_per_class=220)
-    out_path = "data/sentiment_dataset.csv"
+    out_path = "hinglish-sentiment/data/sentiment_dataset.csv"
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["text", "label"])
